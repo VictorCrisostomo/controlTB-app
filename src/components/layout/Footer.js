@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.ContentFooter}>
         <p className={styles.TextFooter}>Ação realizada pela <strong>uniftc</strong></p>
-        <p className={styles.TextFooter}>Projeto Interprofissional em saúde <br/>Média e alta complexidade</p>
+        <p className={styles.TextFooter}>Projeto Interprofissional em saúde - Média e alta complexidade</p>
         <p className={styles.TextFooter}>Participantes:</p>
         <div className={styles.NamesFooter}>
           <div className={styles.LeftFooter}>
