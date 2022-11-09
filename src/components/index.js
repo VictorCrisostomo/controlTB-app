@@ -51,7 +51,7 @@ const MenuInicial = () => {
               </div>
               <div className="ContentCard">
                 <h3 className="TitleCard">Diagnóstico</h3>
-                <p className="TextCard">Exames clínicos, locais onde são realizados</p>
+                <p className="TextCard">Exames clínicos, locais <br/>onde são realizados</p>
               </div>
             </div>
           </Link>
