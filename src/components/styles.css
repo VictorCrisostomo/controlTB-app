@@ -1,0 +1,41 @@
+.Title {
+    margin: 1em;
+
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: #AD0808;
+}
+
+.Container {
+    /* border: #AD0808 1px solid; */
+    margin: 0 1.5em 0 1.5em;
+}
+
+.Cards {
+    width: 100%;
+    height: 6em;
+
+    background-color: #F6F6F7;
+    margin-bottom: 1.5em;
+
+    border-radius: .5em;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+}
+
+.BackgroundIcon {
+    width: 30%;
+
+    border-radius: .5em 0 0 .5em;
+    background-color: #FFC1C1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 4em;
+}

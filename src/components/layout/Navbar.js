@@ -7,6 +7,8 @@ import {BiSearchAlt} from "react-icons/bi"
 
 const Navbar = () => {
   return (
+    <div>
+        <div className={styles.topBar}></div>
         <nav className={styles.navbar}>
             <Link to="/">
                 <img className={styles.imgLogo} src={logo} alt="Control TB" />
@@ -17,6 +19,7 @@ const Navbar = () => {
                 </button>
             </div>
         </nav>
+    </div>
   )
 }
 
