@@ -1,3 +1,32 @@
 .footer {
-    bottom: 0;
+    width: 100%;
+    background-color: #BBBBBB;
+}
+
+.ContentFooter {
+    margin: 1em;
+}
+
+.TextFooter {
+    font-size: 10.5pt;
+    color: #777;
+    margin-bottom: .5em;
+}
+
+.NamesFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.LeftFooter,
+.RigthFooter {
+    font-size: 9pt;
+    color: #888;
+}
+
+.ProfFooter {
+    margin-top: .8em;
+    font-size: 9pt;
+    color: #888;
 }

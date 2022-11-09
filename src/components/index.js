@@ -56,7 +56,7 @@ const MenuInicial = () => {
             </div>
           </Link>
 
-          <Link to="/tratamento">
+          <Link to="/tratamento">/
             <div className="Cards">
             <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={remedio} alt="" />
