@@ -4,10 +4,6 @@ import "./styles.css";
 const MenuInicial = () => {
   return (
     <main>
-      <div className="">
-        <h1>Control TB</h1>
-      </div>
-
         <div className="">
           <h2>TUBERCULOSE</h2>
         </div>
