@@ -1,6 +1,8 @@
 // import React from 'react'
+import { Link } from "react-router-dom"
 
-import { BsFillPlayFill } from "react-icons/bs";
+import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
+
 
 import tosse from "../../img/icons/tosse.png";
 
@@ -16,7 +18,17 @@ const Sintomasetransmicao = () => {
             <h2>Sintomas e transmição</h2>
           </div>
         </div>
-        <button className="btnAudio">Audio descrição <BsFillPlayFill /></button>
+        <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
+      </div>
+
+      <div className="btnsPvNxt">
+        <Link to="/oquee">
+          <button className="btnPrev"><BsFillCaretLeftFill /> Voltar</button>        
+        </Link>
+        <Link className="backToMenu" to="/">Menu principal</Link>
+        <Link to="/diagnostico">
+        <button className="btnNext">Proximo <BsFillCaretRightFill /></button>
+        </Link>
       </div>
     </main>
   )

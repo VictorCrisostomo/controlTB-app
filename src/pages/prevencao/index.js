@@ -1,6 +1,8 @@
 // import React from 'react'
+import { Link } from "react-router-dom"
 
-import { BsFillPlayFill } from "react-icons/bs";
+import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
+
 
 import vacina from "../../img/icons/vacina.png";
 
@@ -10,13 +12,23 @@ const Prevencao = () => {
       <div className="Cards">
         <div className="TopTitleCard">
           <div className="imgToptitleCard">
-            <img style={{width: '2.1em'}} src={vacina} alt="" />
+            <img style={{width: '1.62em'}} src={vacina} alt="" />
           </div>
           <div className="textToptitleCard">
             <h2>Prevenção</h2>
           </div>
         </div>
-        <button className="btnAudio">Audio descrição <BsFillPlayFill /></button>
+        <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
+      </div>
+
+      <div className="btnsPvNxt">
+        <Link to="/fisiorespiratoria">
+          <button className="btnPrev"><BsFillCaretLeftFill /> Voltar</button>        
+        </Link>
+        <Link className="backToMenu" to="/">Menu principal</Link>
+        <Link to="/curiosidades">
+        <button className="btnNext">Proximo <BsFillCaretRightFill /></button>
+        </Link>
       </div>
     </main>
   )

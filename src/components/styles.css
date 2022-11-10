@@ -61,6 +61,54 @@
     align-items: center;
 }
 
+.btnsPvNxt {
+    margin: 3em 0 -1em 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnPrev {
+    width: 6.2em;
+    background-color: #AD0808 ;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: .5em;
+    padding: .8em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.backToMenu {
+    color: #730504;
+    text-decoration: underline !important;
+
+    font-weight: 600;
+}
+
+.btnNext {
+    width: 6.2em;
+    background-color: #AD0808 ;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: .5em;
+    padding: .8em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* tela inicial */
 .Title {
     margin: 0 0 1em 0;

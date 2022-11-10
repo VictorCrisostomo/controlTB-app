@@ -1,5 +1,8 @@
 // import React from 'react'
-import { BsFillPlayFill } from "react-icons/bs";
+import { Link } from "react-router-dom"
+
+import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
+
 
 import virus from "../../img/icons/virus.png";
 
@@ -15,7 +18,17 @@ const Oquee = () => {
             <h2>O que é?</h2>
           </div>
         </div>
-        <button className="btnAudio">Audio descrição <BsFillPlayFill /></button>
+        <button className="btnAudio">Audio descrição <BsFillCaretRightFill/></button>
+      </div>
+
+      <div className="btnsPvNxt">
+        <Link to="/">
+          <button className="btnPrev"><BsFillCaretLeftFill /> Voltar</button>        
+        </Link>
+        <Link className="backToMenu" to="/">Menu principal</Link>
+        <Link to="/sintomasetransmicao">
+        <button className="btnNext">Proximo <BsFillCaretRightFill /></button>
+        </Link>
       </div>
     </main>
   )
