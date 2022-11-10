@@ -25,7 +25,7 @@ const MenuInicial = () => {
               <div className="BackgroundIcon">
                 <img style={{width: '3.6em'}} src={virus} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 className="TitleCard">O que é</h3>
                 <p className="TextCard">Tipos, vetor, surgimento</p>
               </div>
@@ -37,7 +37,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3.5em'}} src={tosse} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 className="TitleCard">Sintomas e transmisão</h3>
                 <p className="TextCard">Sinais, sintomas, formas <br/>de transmição</p>
               </div>
@@ -49,7 +49,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={microscopio} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 className="TitleCard">Diagnóstico</h3>
                 <p className="TextCard">Exames clínicos, locais <br/>onde são realizados</p>
               </div>
@@ -61,7 +61,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={remedio} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 className="TitleCard">Tratamento</h3>
                 <p className="TextCard">Medicamentos, efeitos colaterais, <br/>locais de distribuição</p>
               </div>
@@ -73,7 +73,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3.2em'}} src={frutas} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 class="TitleCard">Terapia Nutricional</h3>
                 <p class="TextCard">Alimentação como parte do <br/>tratamento, receitas</p>
               </div>
@@ -85,7 +85,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3.8em'}} src={pulmao} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 class="TitleCard">Fisioterapia Respirátoria</h3>
                 <p class="TextCard">Como funciona, onde fazer</p>
               </div>
@@ -97,7 +97,7 @@ const MenuInicial = () => {
               <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={vacina} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 class="TitleCard">Prevenção</h3>
                 <p class="TextCard">Vacinação, onde fazer</p>
               </div>
@@ -109,7 +109,7 @@ const MenuInicial = () => {
               <div className="BackgroundIcon">
                 <img style={{width: '4.2em'}} src={lampada} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
                 <h3 class="TitleCard">Curiosidades</h3>
                 <p class="TextCard">Coisas que você provavelmente <br/>não sabia sobre a tuberculose</p>
               </div>
@@ -121,7 +121,7 @@ const MenuInicial = () => {
             <div className="BackgroundIcon">
                 <img style={{width: '3.5em'}} src={tv} alt="" />
               </div>
-              <div className="ContentCard">
+              <div className="ContentMainCard">
               <h3 class="TitleCard">TV TB</h3>
                 <p class="TextCard">Canal de informações com <br/>animações e vídeos</p>
               </div>
