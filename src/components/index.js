@@ -21,7 +21,7 @@ const MenuInicial = () => {
 
         <div className="Container">
           <Link to="/oquee">
-            <div className="Cards">
+            <div className="MainCards">
               <div className="BackgroundIcon">
                 <img style={{width: '3.6em'}} src={virus} alt="" />
               </div>
@@ -33,7 +33,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/sintomasetransmicao">
-            <div className="Cards">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3.5em'}} src={tosse} alt="" />
               </div>
@@ -45,7 +45,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/diagnostico">
-            <div className="Cards">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={microscopio} alt="" />
               </div>
@@ -56,8 +56,8 @@ const MenuInicial = () => {
             </div>
           </Link>
 
-          <Link to="/tratamento">/
-            <div className="Cards">
+          <Link to="/tratamento">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={remedio} alt="" />
               </div>
@@ -69,7 +69,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/terapianutricional">
-            <div className="Cards">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3.2em'}} src={frutas} alt="" />
               </div>
@@ -81,7 +81,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/fisiorespiratoria">
-            <div className="Cards">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3.8em'}} src={pulmao} alt="" />
               </div>
@@ -93,7 +93,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/prevencao">
-            <div className="Cards">
+            <div className="MainCards">
               <div className="BackgroundIcon">
                 <img style={{width: '3em'}} src={vacina} alt="" />
               </div>
@@ -105,7 +105,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/curiosidades">
-            <div className="Cards">
+            <div className="MainCards">
               <div className="BackgroundIcon">
                 <img style={{width: '4.2em'}} src={lampada} alt="" />
               </div>
@@ -117,7 +117,7 @@ const MenuInicial = () => {
           </Link>
 
           <Link to="/tvtb">
-            <div className="Cards">
+            <div className="MainCards">
             <div className="BackgroundIcon">
                 <img style={{width: '3.5em'}} src={tv} alt="" />
               </div>
