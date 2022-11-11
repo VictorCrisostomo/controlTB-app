@@ -67,6 +67,12 @@
     margin-top: 1.5em;
 }
 
+.imgContent {
+    padding: 0 2em 0 2em;
+    display: flex;
+    justify-content: center;
+}
+
 .TextContent {
     padding-top: 1em;
 

@@ -23,7 +23,9 @@ const Oquee = () => {
         </div>
         <button className="btnAudio">Audio descrição <BsFillCaretRightFill/></button>
         <div className="ContentCard">
-          <img style={{width: '22em'}} src={hq1} alt="" />
+          <div className="imgContent">
+          <img style={{width: '18em'}} src={hq1} alt="" />
+          </div>
             <p className="TextContent">
               Parece que o Chico está um pouco confuso né? Os tuberculos são alimentos de raízes grossas que ficam embaixo da terra, já a tuberculose (TB) é uma doença infecciosa causada por uma bactéria chamada Mycobacterium tuberculosis ou bacilo de koch. Embora o nome seja parecido as definições são totalmente opostas não é mesmo?
             </p>
@@ -37,16 +39,18 @@ const Oquee = () => {
               </p>
             </div>
           </div>
-          <img style={{width: '22em'}} src={img2} alt="" />
+          <img style={{width: '17em'}} src={img2} alt="" />
         </div>
       </div>
 
       <div className="Cards">
         <div className="ContentCard">
-          <img style={{width: '22em'}} src={hq2} alt="" />
-            <p className="TextContent">
+          <div className="imgContent">
+          <img style={{width: '20em'}} src={hq2} alt="" />
+          </div>
+          <p className="TextContent">
             Mesmo sendo descoberta apenas em 1882 pelo bacteriologista alemão Robert Koch a tuberculose já existia 8 mil anos antes de Cristo (AC),já foram encontrados ossos pré- históricos com evidencias da doença, sendo assim, a tuberculose é uma das doenças mais antigas do mundo.
-            </p>
+          </p>
         </div>
       </div>
 
