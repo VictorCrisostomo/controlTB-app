@@ -12,6 +12,7 @@ import hq2 from "../../img/hq-2.jpg" ;
 const Oquee = () => {
   return (
     <main className="Container">
+      
       <div className="Cards">
         <div className="TopTitleCard">
           <div className="imgToptitleCard">
@@ -39,14 +40,16 @@ const Oquee = () => {
               </p>
             </div>
           </div>
-          <img style={{width: '17em'}} src={img2} alt="" />
+          <div className="imgContent">
+          <img style={{width: '18em'}} src={img2} alt="" />
+          </div>
         </div>
       </div>
 
       <div className="Cards">
         <div className="ContentCard">
           <div className="imgContent">
-          <img style={{width: '20em'}} src={hq2} alt="" />
+          <img style={{width: '18em'}} src={hq2} alt="" />
           </div>
           <p className="TextContent">
             Mesmo sendo descoberta apenas em 1882 pelo bacteriologista alemão Robert Koch a tuberculose já existia 8 mil anos antes de Cristo (AC),já foram encontrados ossos pré- históricos com evidencias da doença, sendo assim, a tuberculose é uma das doenças mais antigas do mundo.
