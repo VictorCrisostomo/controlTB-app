@@ -9,8 +9,14 @@ import localizacao from "../../img/icons/localizacao.png";
 import hq5 from "../../img/hq-5.jpg" ;
 import img10 from "../../img/img-10.jpg" ;
 import img11 from "../../img/img-11.png" ;
+import img12 from "../../img/img-12.jpg" ;
+import img13 from "../../img/img-13.jpg" ;
+import img14 from "../../img/img-14.jpg" ;
+import img15 from "../../img/img-15.jpg" ;
+import img16 from "../../img/img-16.jpg" ;
 
 const Diagnostico = () => {
+
   return (
     <main className="Container">
       <div className="Cards">
@@ -64,7 +70,65 @@ const Diagnostico = () => {
           </div>
         </div>
         <div className="ContentCard">
+        <div className="textToptitleCard">
+          <h3>| Itabuna</h3>
         </div>
+          <br/>
+          <div className="cardsBtn">
+            <div className="imgCardBtn" style={
+              { backgroundImage: `url(${img12})`}
+              }></div>
+            <div className="ContentBtnsCard">
+              <p className="TextCard">Hospital Manoel Novaes</p>
+              <button className="btnLocal">Ver endereço</button>
+              <button className="btnTell">Ligar</button>
+            </div>
+          </div>
+          <div className="cardsBtn">
+            <div className="imgCardBtn" style={
+              { backgroundImage: `url(${img13})`}
+              }></div>
+            <div className="ContentBtnsCard">
+              <p className="TextCard">Hospital Manoel Novaes</p>
+              <button className="btnLocal">Ver endereço</button>
+              <button className="btnTell">Ligar</button>
+            </div>
+          </div>
+          <div className="cardsBtn">
+            <div className="imgCardBtn" style={
+              { backgroundImage: `url(${img14})`}
+              }></div>
+            <div className="ContentBtnsCard">
+              <p className="TextCard">Hospital Manoel Novaes</p>
+              <button className="btnLocal">Ver endereço</button>
+              <button className="btnTell">Ligar</button>
+            </div>
+          </div>
+          <div className="textToptitleCard">
+          <h3>| Ilhéus</h3>
+          </div>
+          <br/>
+          <div className="cardsBtn">
+            <div className="imgCardBtn" style={
+              { backgroundImage: `url(${img15})`}
+              }></div>
+            <div className="ContentBtnsCard">
+              <p className="TextCard">Hospital Manoel Novaes</p>
+              <button className="btnLocal">Ver endereço</button>
+              <button className="btnTell">Ligar</button>
+            </div>
+          </div>
+          <div className="cardsBtn">
+            <div className="imgCardBtn" style={
+              { backgroundImage: `url(${img16})`}
+              }></div>
+            <div className="ContentBtnsCard">
+              <p className="TextCard">Hospital Manoel Novaes</p>
+              <button className="btnLocal">Ver endereço</button>
+              <button className="btnTell">Ligar</button>
+            </div>
+          </div>
+          </div>
       </div>
 
 

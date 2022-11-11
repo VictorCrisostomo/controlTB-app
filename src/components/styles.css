@@ -153,6 +153,69 @@
     justify-content: center;
 }
 
+.cardsBtn {
+    width: 100%;
+    height: 9em;
+
+    background-color: #F6F6F7;
+    margin-bottom: 1.5em;
+
+    border-radius: .5em;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+}
+
+.imgCardBtn {
+    width: 50%;
+    border-radius: .5em 0 0 .5em;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContentBtnsCard {
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btnLocal {
+    width: 100%;
+    background-color: #012442 ;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 1.5em;
+    padding: .5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnTell {
+    width: 100%;
+    background-color: #06AA48 ;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 1.5em;
+    padding: .5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* tela inicial */
 .Title {
     margin: 0 0 1em 0;
