@@ -192,6 +192,13 @@
 
 }
 
+.TextCardBtns {
+    color: #666666;
+    text-align: center;
+    font-size: 11pt;
+    word-break: normal;
+}
+
 .btnLocal {
     width: 75%;
     background-color: #012442 ;
