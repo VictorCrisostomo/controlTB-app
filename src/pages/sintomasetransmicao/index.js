@@ -53,7 +53,7 @@ const Sintomasetransmicao = () => {
             <img style={{width: '16em'}} src={img3} alt="" />
           </div>
           <div className="imgContent">
-            <img style={{width: '22em'}} src={img4} alt="" />
+            <img style={{width: '20em'}} src={img4} alt="" />
           </div>
         </div>
       </div>

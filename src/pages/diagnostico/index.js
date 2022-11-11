@@ -3,8 +3,12 @@ import { Link } from "react-router-dom"
 
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
-
 import microscopio from "../../img/icons/microscopio.png";
+import localizacao from "../../img/icons/localizacao.png";
+
+import hq5 from "../../img/hq-5.jpg" ;
+import img10 from "../../img/img-10.jpg" ;
+import img11 from "../../img/img-11.png" ;
 
 const Diagnostico = () => {
   return (
@@ -19,7 +23,50 @@ const Diagnostico = () => {
           </div>
         </div>
         <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
+        <div className="ContentCard">
+          <p className="TextContent">
+          O diagnóstico precoce aumenta as chances de cura e reduz novos casos por transmissão da infecção por contágio.
+          </p>
+          <div className="imgContent">
+            <img style={{width: '18em'}} src={hq5} alt="" />
+          </div>
+        </div>
       </div>
+
+      <div className="Cards">
+        <div className="ContentCard">
+          <p className="TextContent">
+            O teste rápido molecular para tuberculose (TRM-TB) é realizado com 1 amostra respiratória (escarro) obtendo o resultado aproximadamente 2 horas depois.
+          </p>
+          <div className="imgContent">
+            <img style={{width: '18em'}} src={img10} alt="" />
+          </div>
+          <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img11} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                Além desses exames também são utilizados no diagnóstico da TB: exame microscópico direto (baciloscopia direta), cultura para micobactéria com identificação de espécie e teste de sensibilidade antimicrobiana.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="Cards">
+        <div className="TopTitleCard">
+          <div className="imgToptitleCard">
+            <img style={{width: '1.75em'}} src={localizacao} alt="" />
+          </div>
+          <div className="textToptitleCard">
+            <h2>Locais para realização desses exames</h2>
+          </div>
+        </div>
+        <div className="ContentCard">
+        </div>
+      </div>
+
 
       <div className="btnsPvNxt">
         <Link to="/sintomasetransmicao">
