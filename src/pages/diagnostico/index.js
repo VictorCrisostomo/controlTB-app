@@ -89,7 +89,7 @@ const Diagnostico = () => {
               { backgroundImage: `url(${img13})`}
               }></div>
             <div className="ContentBtnsCard">
-              <p className="TextCard">Hospital Manoel Novaes</p>
+              <p className="TextCard">LIDI Laboratório de Itabuna</p>
               <button className="btnLocal">Ver endereço</button>
               <button className="btnTell">Ligar</button>
             </div>
@@ -99,7 +99,7 @@ const Diagnostico = () => {
               { backgroundImage: `url(${img14})`}
               }></div>
             <div className="ContentBtnsCard">
-              <p className="TextCard">Hospital Manoel Novaes</p>
+              <p className="TextCard">LAP - Laboratório médico</p>
               <button className="btnLocal">Ver endereço</button>
               <button className="btnTell">Ligar</button>
             </div>
@@ -113,7 +113,7 @@ const Diagnostico = () => {
               { backgroundImage: `url(${img15})`}
               }></div>
             <div className="ContentBtnsCard">
-              <p className="TextCard">Hospital Manoel Novaes</p>
+              <p className="TextCard">LAP Medicina Laboratorial</p>
               <button className="btnLocal">Ver endereço</button>
               <button className="btnTell">Ligar</button>
             </div>
@@ -123,7 +123,7 @@ const Diagnostico = () => {
               { backgroundImage: `url(${img16})`}
               }></div>
             <div className="ContentBtnsCard">
-              <p className="TextCard">Hospital Manoel Novaes</p>
+              <p className="TextCard">CIAC Analises Clinicas</p>
               <button className="btnLocal">Ver endereço</button>
               <button className="btnTell">Ligar</button>
             </div>

@@ -164,11 +164,13 @@
     box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
 
     display: flex;
+    justify-content: space-between;
 }
 
 .imgCardBtn {
-    width: 50%;
+    width: 45%;
     border-radius: .5em 0 0 .5em;
+        
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -180,14 +182,18 @@
 }
 
 .ContentBtnsCard {
-    margin-left: 1.5em;
+    margin-left: 1em;
+    padding: 0.5em 1em 0.5em 0;
+    /* padding: .5em; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .btnLocal {
-    width: 100%;
+    width: 75%;
     background-color: #012442 ;
     color: #F6F6F7;
     box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
@@ -202,7 +208,7 @@
 }
 
 .btnTell {
-    width: 100%;
+    width: 75%;
     background-color: #06AA48 ;
     color: #F6F6F7;
     box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
