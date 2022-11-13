@@ -20,7 +20,7 @@ const Novaesmdl = () => (
         <div style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
            <a href="https://www.google.com/maps/dir/-15.6747304,-38.9554634/Hospital+Manoel+Novaes/@-15.2274186,-39.5089314,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7463ba0bba4c49b:0xe7c1a5d9cd52c280!2m2!1d-39.2708981!2d-14.7811587">
-            <button className="Button green">Save changes</button>
+            <button className="Button green">Abrir no mapa</button>
             </a> 
           </Dialog.Close>
         </div>
