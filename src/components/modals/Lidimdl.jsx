@@ -3,7 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 // import { Cross2Icon } from '@radix-ui/react-icons';
 import './styles.css';
 
-const Novaesmdl = () => (
+const Lidimdl = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="Button" size="large">
@@ -13,14 +13,14 @@ const Novaesmdl = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent">
-        <Dialog.Title className="DialogTitle">Hospital Manoel Novaes</Dialog.Title>
+        <Dialog.Title className="DialogTitle">LIDI Laboratório de Itabuna</Dialog.Title>
         <hr/>
         <Dialog.Description className="DialogDescription">
-            Endereço: R. Antônio Muniz, 235 - Centro, Itabuna - BA, 45600-625 | Aberto 24 horas
+            Endereço: R. Firmino Alves, 268 - Centro, Itabuna - BA, 45600-908 | Fecha às 17:00 h
         </Dialog.Description>
         <div className='FooterBtn' style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
-           <a href="https://www.google.com/maps/dir/-15.6747304,-38.9554634/Hospital+Manoel+Novaes/@-15.2274186,-39.5089314,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7463ba0bba4c49b:0xe7c1a5d9cd52c280!2m2!1d-39.2708981!2d-14.7811587">
+           <a href="https://www.google.com/maps/dir//LIDI-Laborat%C3%B3rio+de+Investiga%C3%A7%C3%A3o+e+Diagn%C3%B3sticos+de+Itabuna+-+R.+Firmino+Alves,+268+-+Centro,+Itabuna+-+BA,+45600-908/@-14.79565,-39.2941385,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x739aa5fea09e3a9:0xf1f7be6fa833ee4c!2m2!1d-39.2743979!2d-14.791901">
             <button className="Button green">Abrir no mapa</button>
             </a> 
           </Dialog.Close>
@@ -30,4 +30,4 @@ const Novaesmdl = () => (
   </Dialog.Root>
 );
 
-export default Novaesmdl;
+export default Lidimdl;

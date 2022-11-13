@@ -3,7 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 // import { Cross2Icon } from '@radix-ui/react-icons';
 import './styles.css';
 
-const Novaesmdl = () => (
+const Lapmdl = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="Button" size="large">
@@ -13,14 +13,14 @@ const Novaesmdl = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent">
-        <Dialog.Title className="DialogTitle">Hospital Manoel Novaes</Dialog.Title>
+        <Dialog.Title className="DialogTitle">LAP Medicina Laboratorial</Dialog.Title>
         <hr/>
         <Dialog.Description className="DialogDescription">
-            Endereço: R. Antônio Muniz, 235 - Centro, Itabuna - BA, 45600-625 | Aberto 24 horas
+            Endereço: Av. Osvaldo Cruz, 628 - Cidade Nova, Ilhéus - BA, 45652-130 | Fecha 17:00 h ⋅ Abre às 07:00 h
         </Dialog.Description>
         <div className='FooterBtn' style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
-           <a href="https://www.google.com/maps/dir/-15.6747304,-38.9554634/Hospital+Manoel+Novaes/@-15.2274186,-39.5089314,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x7463ba0bba4c49b:0xe7c1a5d9cd52c280!2m2!1d-39.2708981!2d-14.7811587">
+           <a href="https://www.google.com/maps/place/Lap+Medicina+Laboratorial/@-14.7860655,-39.045217,15z/data=!4m9!1m2!2m1!1slap+laborat%C3%B3rio+ilh%C3%A9us!3m5!1s0x7390a59eecbd7e7:0x6182709d7b7a6400!8m2!3d-14.7860267!4d-39.0364552!15sChhsYXAgbGFib3JhdMOzcmlvIGlsaMOpdXNaGiIYbGFwIGxhYm9yYXTDs3JpbyBpbGjDqXVzkgEKbGFib3JhdG9yeZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOeGVUbDJSV2xuUlJBQuABAA">
             <button className="Button green">Abrir no mapa</button>
             </a> 
           </Dialog.Close>
@@ -30,4 +30,4 @@ const Novaesmdl = () => (
   </Dialog.Root>
 );
 
-export default Novaesmdl;
+export default Lapmdl;

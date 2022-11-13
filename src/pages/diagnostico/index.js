@@ -2,6 +2,10 @@
 import { Link } from "react-router-dom"
 
 import Novaesmdl from "../../components/modals/Novaesmdl";
+import Lidimdl from "../../components/modals/Lidimdl";
+import Lapmdl from "../../components/modals/Lapmdl";
+import Lapiosmdl from "../../components/modals/Lapiosmdl";
+import Ciacmdl from "../../components/modals/Ciacmdl";
 
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
@@ -82,9 +86,10 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">Hospital Manoel Novaes</p>
-              {/* <button className="btnLocal">Ver endereço</button>   */}
               <Novaesmdl />
+              <a href="tel:+557332149117">
               <button className="btnTell">Ligar</button>
+              </a>
             </div>
           </div>
           <div className="cardsBtn">
@@ -93,8 +98,10 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">LIDI Laboratório de Itabuna</p>
-              <button className="btnLocal">Ver endereço</button>
+              <Lidimdl />
+              <a href="tel:+557332141575">
               <button className="btnTell">Ligar</button>
+              </a>
             </div>
           </div>
           <div className="cardsBtn">
@@ -103,8 +110,10 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">LAP - Laboratório médico</p>
-              <button className="btnLocal">Ver endereço</button>
+              <Lapmdl />
+              <a href="tel:+557336122597">
               <button className="btnTell">Ligar</button>
+              </a>
             </div>
           </div>
           <div className="textToptitleCard">
@@ -117,8 +126,10 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">LAP Medicina Laboratorial</p>
-              <button className="btnLocal">Ver endereço</button>
+              <Lapiosmdl />
+              <a href="tel:+557332318777">
               <button className="btnTell">Ligar</button>
+              </a>
             </div>
           </div>
           <div className="cardsBtn">
@@ -127,8 +138,10 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">CIAC Analises Clinicas</p>
-              <button className="btnLocal">Ver endereço</button>
+              <Ciacmdl />
+              <a href="tel:+557332313366">
               <button className="btnTell">Ligar</button>
+              </a>
             </div>
           </div>
           </div>
