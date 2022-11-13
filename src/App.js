@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import "./App.css"
 
+// Paginas
 import Home from "./pages/Home"
 import Oquee from "./pages/oquee"
 import Sintomasetransmicao from "./pages/sintomasetransmicao"
@@ -13,6 +14,7 @@ import Prevencao from "./pages/prevencao"
 import Curiosidades from "./pages/curiosidades"
 import Tvtb from "./pages/tvtb"
 
+// Components
 import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer"
 

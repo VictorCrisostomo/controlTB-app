@@ -200,7 +200,7 @@
 }
 
 .btnLocal {
-    width: 75%;
+    width: 9em;
     background-color: #012442 ;
     color: #F6F6F7;
     box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
@@ -215,7 +215,7 @@
 }
 
 .btnTell {
-    width: 75%;
+    width: 9em;
     background-color: #06AA48 ;
     color: #F6F6F7;
     box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);

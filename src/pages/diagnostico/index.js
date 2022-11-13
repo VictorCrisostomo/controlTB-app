@@ -1,6 +1,8 @@
 // import React from 'react'
 import { Link } from "react-router-dom"
 
+import Novaesmdl from "../../components/modals/Novaesmdl";
+
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
 import microscopio from "../../img/icons/microscopio.png";
@@ -80,7 +82,8 @@ const Diagnostico = () => {
               }></div>
             <div className="ContentBtnsCard">
               <p className="TextCardBtns">Hospital Manoel Novaes</p>
-              <button className="btnLocal">Ver endereço</button>
+              {/* <button className="btnLocal">Ver endereço</button>   */}
+              <Novaesmdl />
               <button className="btnTell">Ligar</button>
             </div>
           </div>
@@ -130,7 +133,6 @@ const Diagnostico = () => {
           </div>
           </div>
       </div>
-
 
       <div className="btnsPvNxt">
         <Link to="/sintomasetransmicao">
