@@ -30,14 +30,14 @@ const Fisiorespitatoria = () => {
             O fisioterapeuta irá atuar no tratamento das sequelas deixadas pela tuberculose, que podem ser alterações na postura, atelectasia ( colapso total ou parcial do pulmão) e acúmulo de secreção.           
           </p>
           <div className="imgContent">
-          <img style={{width: '18em'}} src={img29} alt="" />
+          <img style={{width: '18em', borderRadius: '1em'}} src={img29} alt="" />
           </div>
           <br />
             <p className="TextContent">
               A fisioterapia respiratória é feita com o uso de técnicas não invasivas, como exercícios de inspiração e expiração, movimentos que fortalecem os músculos do sistema respiratório e equipamentos que auxiliam no controle da respiração.
             </p>
           <div className="imgContent">
-          <img style={{width: '18em'}} src={img30} alt="" />
+          <img style={{width: '18em', borderRadius: '1em'}} src={img30} alt="" />
           </div>
           <br />
           <p className="TextContent">
