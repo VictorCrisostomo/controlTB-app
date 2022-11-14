@@ -159,7 +159,6 @@ const Terapianutricional = () => {
         </div>
       </div>
 
-
       <div className="btnsPvNxt">
         <Link to="/tratamento">
           <button className="btnPrev"><BsFillCaretLeftFill /> Voltar</button>        
