@@ -3,8 +3,13 @@ import { Link } from "react-router-dom"
 
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
-
 import lampada from "../../img/icons/lampada-2.png";
+
+import img34 from "../../img/img-34.png";
+import img35 from "../../img/img-35.png";
+import img36 from "../../img/img-36.png";
+import img37 from "../../img/img-37.png";
+import img38 from "../../img/img-38.png";
 
 const Curiosidades = () => {
   return (
@@ -19,6 +24,64 @@ const Curiosidades = () => {
           </div>
         </div>
         <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
+        <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img34} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                Dom Pedro I morreu de tuberculose no ano de 1834
+              </p>
+            </div>
+          </div>
+      </div>
+      <div className="Cards">
+        <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img35} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                A cantora Simaria ficou aproximadamente 1 ano fora dos palcos para tratar de uma tuberculose ganglionar
+              </p>
+            </div>
+          </div>
+      </div>
+      <div className="Cards">
+        <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img36} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                O termo usado para Tuberculose antigamente era justamente “consumo”, pois os pacientes sofriam com grande perda de peso, aparentando serem consumidos pela doença.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div className="Cards">
+        <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img37} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                A pequena cicatriz que se forma no braço direito é uma reação natural do corpo à bactéria Mycobacterium bovis que é um microrganismo presente na vacina.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div className="Cards">
+        <div className="dividerTxtImg">
+            <div className="box1">
+              <img style={{width: '10em'}} src={img38} alt="" />
+            </div>
+            <div className="box2">
+              <p className="TextContent">
+                Existe também a tuberculose bovina que é uma doença causada pelo Mycobacterium bovis que afeta, principalmente, bovinos e búfalos. Ela se torna crônica nos animais e é transmissível para o homem.
+              </p>
+            </div>
+          </div>
       </div>
 
       <div className="btnsPvNxt">
