@@ -83,7 +83,7 @@ const Tratamento = () => {
             A Maria não sabia mas a rifampicina reduz o efeito do anticoncepcional! então para não ter uma gravidez inesperada, use preservativo durante todo o período do tratamento e até 2 semanas depois de conclui-lo por precaução
           </p>
           <div className="imgContent">
-            <img style={{width: '18em'}} src={img17} alt="" />
+            <img style={{width: '18em', borderRadius: '1em'}} src={img17} alt="" />
           </div>
           <p className="TextContentSecondary">
             Evite consumir durante o tratamento alimentos fermentados e envelhecidos como pães, queijos envelhecidos, salames e vinhos, pois eles são ricos em tiramina e histamina que interagem com a isoniazida.          
