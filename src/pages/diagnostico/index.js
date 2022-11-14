@@ -37,7 +37,7 @@ const Diagnostico = () => {
         <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
         <div className="ContentCard">
           <p className="TextContent">
-          O diagnóstico precoce aumenta as chances de cura e reduz novos casos por transmissão da infecção por contágio.
+            O diagnóstico precoce aumenta as chances de cura e reduz novos casos por transmissão da infecção por contágio.
           </p>
           <div className="imgContent">
             <img style={{width: '18em'}} src={hq5} alt="" />

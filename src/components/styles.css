@@ -75,7 +75,6 @@
 }
 
 .TextContent {
-    padding-top: 1em;
 
     font-size: 11pt;
     text-align: justify;
@@ -103,6 +102,69 @@
 .box2 {
     /* border: #666666 1px solid; */
     width: 48%;
+}
+
+/* Cards de alerta */
+.CardsAlert {
+    width: 100%;
+    background-color: #730504;
+
+    border-radius: .8em;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+.textToptitleCardAlert{
+    color: #FFE3E3;
+    text-align: left;
+}
+
+.TextContentAlert {
+    margin-top: -1em;
+
+    font-size: 11pt;
+    font-weight: 600;
+    text-align: justify;
+
+    color: #FFE3E3;
+
+    word-break: normal;
+}
+
+/* Cards secundarios */
+.CardsSecondary {
+    width: 100%;
+    background-color: #FFE3E3;
+
+    border-radius: .8em;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+.TextContentSecondary {
+    margin-top: 1em;
+
+    font-size: 11pt;
+    font-weight: 600;
+    text-align: justify;
+
+    color: #C44C52;
+
+    word-break: normal;
+}
+
+.subText {
+    margin-bottom: -.8em;
+    font-size: 9pt;
+    font-weight: 500;
+
+    color: #666666;
+
+    word-break: normal;
 }
 
 .btnsPvNxt {

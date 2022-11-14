@@ -33,6 +33,7 @@ const Sintomasetransmicao = () => {
           <div className="imgContent">
           <img style={{width: '18em'}} src={hq3} alt="" />
           </div>
+          <br />
             <p className="TextContent">
               Após a pandemia ficou um pouco difícil diferenciar uma gripe ou outro tipo de doença respiratória da COVID-19. No caso da tuberculose são muitas semelhanças como tosse, febre e sintomas respiratórios, ambas atingem o pulmão e são transmitidas por via aérea, por isso é importanteconhecer todos os sintomas e ao chegar em ambulatórios pedir para investigar a possibilidade de ambas as doenças.
             </p>
@@ -77,7 +78,8 @@ const Sintomasetransmicao = () => {
           <div className="imgContent">
             <img style={{width: '18em'}} src={img8} alt="" />
           </div>
-          <p className="TextContent">*Caso apresente algum sintoma, procure a unidade de saúde mais proxima da sua residência.</p>
+          <br />
+          <p style={{textAlign: 'center'}} className="TextContent">*Caso apresente algum sintoma, procure a unidade de saúde mais proxima da sua residência.</p>
         </div>
       </div>
 
