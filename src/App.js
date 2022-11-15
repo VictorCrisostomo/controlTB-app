@@ -1,10 +1,12 @@
+import React from "react"
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import "./App.css"
 
 // Paginas
 import Home from "./pages/Home"
-import Oquee from "./pages/oquee"
+// import Oquee from "./pages/oquee"
 import Sintomasetransmicao from "./pages/sintomasetransmicao"
 import Diagnostico from "./pages/diagnostico"
 import Tratamento from "./pages/tratamento"
@@ -14,10 +16,12 @@ import Prevencao from "./pages/prevencao"
 import Curiosidades from "./pages/curiosidades"
 import Tvtb from "./pages/tvtb"
 
+
 // Components
 import Navbar from "./components/layout/Navbar"
 import Footer from "./components/layout/Footer"
 
+const LazyOquee = React.lazy(() => import("./pages/oquee"));
 
 function App() {
   return (
@@ -26,7 +30,13 @@ function App() {
       <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/oquee" element={<Oquee />} />
+            <Route
+             path="/oquee" 
+             element={
+              <React.Suspense fallback='Carregando...'>
+                <LazyOquee />
+              </React.Suspense>
+              }/>
             <Route path="/sintomasetransmicao" element={<Sintomasetransmicao />} />
             <Route path="/diagnostico" element={<Diagnostico />} />
             <Route path="/tratamento" element={<Tratamento />} />
