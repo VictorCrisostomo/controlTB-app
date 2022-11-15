@@ -6,7 +6,7 @@ import spin from "../../img/icons/load-icon-png-27.png";
 
 const Loading = () => {
   return (
-    <div>
+    <div className={styles.container}>
         <img className={styles.loading} src={spin} alt="" />
     </div>
   )
