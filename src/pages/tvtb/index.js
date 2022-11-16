@@ -17,7 +17,6 @@ const Tvtb = () => {
             <h2>TV TB</h2>
           </div>
         </div>
-        <button className="btnAudio">Audio descrição <BsFillCaretRightFill /></button>
         <div className="ContentCard">
           <div className="textToptitleCard">
             <h3>| Campanha Tuberculose 2020</h3>
